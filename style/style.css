@@ -34,7 +34,7 @@ header.cabecalho {
 a.cabecalho_link {
     text-decoration: none;
     font-family: var(--font_padrao);
-    font-size: 3vh;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor3);
     padding-right: 7%;
@@ -55,7 +55,7 @@ section.conteudo_principal {
 
 h1.conteudo_principal_titulo {
     font-family: var(--font_titulo);
-    font-size: 5vh;
+    font-size: 2rem;
     line-height: 1.5em;
     padding-bottom: 2.5%;
 }
@@ -66,9 +66,9 @@ h1 > strong {
 
 p.conteudo_principal_paragrafo {
     font-family: var(--font_padrao);
-    font-size: 3vh;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 1.5em;
+    line-height: 1.3em;
     padding-bottom: 2.5%;
 }
 
@@ -81,7 +81,7 @@ nav.conteudo_navegacao {
 h2.conteudo_navegacao_subtitulo {
     font-family: var(--font_titulo);
     color: var(--cor4);
-    font-size: 3vh;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -91,7 +91,7 @@ a.conteudo_navegacao_link {
     justify-content: center;
     gap: 15px;
     font-family: var(--font_padrao);
-    font-size: 3vh;
+    font-size: 1.5rem;
     color: var(--cor4);
     text-decoration: none;
     border: 2px solid var(--cor3);
@@ -120,7 +120,7 @@ footer.rodape {
 
 p.rodape_paragrafo {
     font-family: var(--font_padrao);
-    font-size: 3vh;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -142,11 +142,7 @@ p.rodape_paragrafo {
 
     section.conteudo_principal {
         width: 100%;
-        text-align: justify;
-    }
-
-    h1.conteudo_principal_titulo {
-        text-align: center;
+       text-align: center
     }
 
     nav.conteudo_navegacao {
