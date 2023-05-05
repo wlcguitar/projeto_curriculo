@@ -43,7 +43,7 @@ a.cabecalho_link {
 main.conteudo {
     display: flex;
     align-items: flex-start;
-    gap: 8%;
+    gap: 10%;
     padding: 0% 12%;
 }
 
@@ -89,6 +89,7 @@ a.conteudo_navegacao_link {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 15px;
     font-family: var(--font_padrao);
     font-size: 1.5rem;
     color: var(--cor4);
@@ -143,6 +144,7 @@ p.rodape_paragrafo {
     }
 
     .conteudo_imagem {
-        width: 90%;
+        width: 70%;
+      
     }
 }
