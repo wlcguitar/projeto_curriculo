@@ -128,11 +128,16 @@ p.rodape_paragrafo {
 
     header.cabecalho {
         text-align: center;
+        padding: 4%;
     }
 
     main.conteudo {
         flex-direction: column-reverse;
         align-items: center;
+    }
+
+    main.conteudo {
+        padding: 0% 4%;
     }
 
     section.conteudo_principal {
@@ -150,6 +155,6 @@ p.rodape_paragrafo {
 
     .conteudo_imagem {
         width: 50%;
-      
+        padding: 4%;
     }
 }
