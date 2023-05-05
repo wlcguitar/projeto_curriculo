@@ -76,7 +76,6 @@ nav.conteudo_navegacao {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
 }
 
 h2.conteudo_navegacao_subtitulo {
@@ -90,7 +89,6 @@ a.conteudo_navegacao_link {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
     font-family: var(--font_padrao);
     font-size: 1.5rem;
     color: var(--cor4);
@@ -99,6 +97,7 @@ a.conteudo_navegacao_link {
     border-radius: 8px;
     width: 370px;
     padding: 1.3%;
+    margin: 1.7%;
 }
 
 a.conteudo_navegacao_link:hover {
@@ -144,6 +143,6 @@ p.rodape_paragrafo {
     }
 
     .conteudo_imagem {
-        width: 75%;
+        width: 90%;
     }
 }
