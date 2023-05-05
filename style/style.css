@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--cor1);
+    background-image: linear-gradient(to left, var(--cor2), var(--cor1));
     color: var(--cor4);
 }
 
@@ -126,6 +126,11 @@ p.rodape_paragrafo {
 
 @media (max-width: 1200px) {
 
+    body {
+        height: 100vh;
+        background-image: linear-gradient(to left, var(--cor2), var(--cor1));
+    }
+
     header.cabecalho {
         text-align: center;
         padding: 4%;
@@ -142,11 +147,14 @@ p.rodape_paragrafo {
 
     section.conteudo_principal {
         width: 100%;
-       text-align: center
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
     }
 
     nav.conteudo_navegacao {
-        padding: 1% 4% 4% 2%;
+        padding: 3% 4%;
     }
 
     .conteudo_imagem {
