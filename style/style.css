@@ -150,7 +150,7 @@ p.rodape_paragrafo {
     }
 
     nav.conteudo_navegacao {
-        padding-bottom: 4%;
+        padding: 1% 4% 4% 2%;
     }
 
     .conteudo_imagem {
