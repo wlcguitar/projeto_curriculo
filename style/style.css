@@ -106,7 +106,7 @@ a.conteudo_navegacao_link:hover {
 }
 
 .conteudo_imagem {
-    width: 45%;
+    width: 40%;
     display: flex;
     justify-content: center;
 }
@@ -151,14 +151,13 @@ p.rodape_paragrafo {
         align-items: center;
         gap: 25px;
     }
-    }
 
     nav.conteudo_navegacao {
         padding: 3% 4%;
     }
 
     .conteudo_imagem {
-        width: 50%;
+        width: 70%;
         padding: 4%;
     }
 }
