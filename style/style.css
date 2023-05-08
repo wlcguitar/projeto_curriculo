@@ -31,7 +31,7 @@ header.cabecalho {
     
 }
 
-a.cabecalho_link {
+a.cabecalho__link {
     text-decoration: none;
     font-family: var(--font_padrao);
     font-size: 1.5rem;
@@ -42,18 +42,18 @@ a.cabecalho_link {
 
 main.conteudo {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 10%;
     padding: 0% 12%;
 }
 
-section.conteudo_principal {
+section.conteudo__principal {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
-h1.conteudo_principal_titulo {
+h1.conteudo__principal__titulo {
     font-family: var(--font_titulo);
     font-size: 2rem;
     line-height: 1.5em;
@@ -64,7 +64,7 @@ h1 > strong {
     color: var(--cor3);
 }
 
-p.conteudo_principal_paragrafo {
+p.conteudo__principal__paragrafo {
     font-family: var(--font_padrao);
     font-size: 1.5rem;
     font-weight: 400;
@@ -72,20 +72,20 @@ p.conteudo_principal_paragrafo {
     padding-bottom: 2.5%;
 }
 
-nav.conteudo_navegacao {
+nav.conteudo__navegacao {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-h2.conteudo_navegacao_subtitulo {
+h2.conteudo__navegacao__subtitulo {
     font-family: var(--font_titulo);
     color: var(--cor4);
     font-size: 1.5rem;
     font-weight: 400;
 }
 
-a.conteudo_navegacao_link {
+a.conteudo__navegacao__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,12 +101,12 @@ a.conteudo_navegacao_link {
     margin: 1.7%;
 }
 
-a.conteudo_navegacao_link:hover {
+a.conteudo__navegacao__link:hover {
     background-color: var(--cor2);
 }
 
-.conteudo_imagem {
-    width: 40%;
+.conteudo__imagem {
+    width: 50%;
     display: flex;
     justify-content: center;
 }
@@ -118,7 +118,7 @@ footer.rodape {
     padding: 1%;
 }
 
-p.rodape_paragrafo {
+p.rodape__paragrafo {
     font-family: var(--font_padrao);
     font-size: 1.5rem;
     font-weight: 400;
@@ -139,24 +139,21 @@ p.rodape_paragrafo {
     main.conteudo {
         flex-direction: column-reverse;
         align-items: center;
-    }
-
-    main.conteudo {
         padding: 0% 4%;
     }
 
-    section.conteudo_principal {
+    section.conteudo__principal {
         width: 100%;
         display: flex;
         align-items: center;
         gap: 25px;
     }
 
-    nav.conteudo_navegacao {
+    nav.conteudo__navegacao {
         padding: 3% 4%;
     }
 
-    .conteudo_imagem {
+    .conteudo__imagem {
         width: 70%;
         padding: 4%;
     }
